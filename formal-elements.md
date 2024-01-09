@@ -93,7 +93,7 @@ Platform: PC
 * ![image](https://github.com/our-game-maya-and-michael/Dash-For-Riches/assets/85742675/3212ff9b-08f2-4cbe-b025-08f403d372a4)
 
 
-*The most distinctive element of "Dash for Riches" compared to similar market games is its integration of territory control and property management within a real-time racing framework. This unique combination allows players not only to engage in exhilarating races but also to strategically influence the race track itself, a feature that sets it apart from other racing or strategy games currently available.
+* The most distinctive element of "Dash for Riches" compared to similar market games is its integration of territory control and property management within a real-time racing framework. This unique combination allows players not only to engage in exhilarating races but also to strategically influence the race track itself, a feature that sets it apart from other racing or strategy games currently available.
 
 
 </div>
