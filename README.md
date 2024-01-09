@@ -4,5 +4,7 @@ In "Dash for Riches," 2 to 4 players line up at the starting line for a fast-pac
 
 Platform: PC
 
+[Formal Elements](https://github.com/our-game-maya-and-michael/Dash-For-Riches/blob/main/formal-elements.md)
+
 ![image](https://github.com/our-game-maya-and-michael/Dash-For-Riches/assets/85742675/8f19c486-465f-43fc-9d91-35a9419ed361)
 ---
