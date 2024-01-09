@@ -20,37 +20,37 @@ Platform: PC
 
 * Target Players: "Dash for Riches" is designed for players aged 10 and above, suitable for all skill levels from beginners to experienced gamers. It appeals to those interested in strategy, fast-paced action, and competitive gameplay.
 * Number of Players: The game accommodates 2 to 4 players, making it ideal for both small groups and individual play. 
-* Player Interaction: The game features competitive interactions as players race against each other, acquire properties, and strategically place obstacles. While primarily competitive, it also encourages strategic thinking and quick decision-making.
+* Player Interaction: The game features competitive interactions as players race against each other, acquire properties, and strategically place obstacles.
 * ![image](https://github.com/our-game-maya-and-michael/Dash-For-Riches/assets/85742675/8a98f7ad-c6de-4ed2-a736-a718f70b201b)
  
 
 ### 2. objectives
 
-* Game Objectives: In "Dash for Riches," the player aims to win by accumulating the most wealth and territory. Victory is achieved by strategically acquiring parts of the map, collecting money, and earning prize boxes during the race. Players can also build on their territories to create advantages or obstacles for opponents.
+* Game Objectives: In "Dash for Riches," the player aims to win by accumulating the most territory. Victory is achieved by strategically acquiring parts of the map, collecting money, and earning prize boxes during the race. Players can also build on their territories to create advantages or obstacles for opponents.
 * Communicating Objectives to Players: The game will inform players of their objectives through an introductory tutorial, on-screen prompts, and a clear display of their current wealth and territory holdings. Progress indicators and real-time updates during gameplay will keep players informed about their status relative to the winning conditions.
 * ![image](https://github.com/our-game-maya-and-michael/Dash-For-Riches/assets/85742675/99f1fe3b-36a1-4675-9c6b-9a2f15de4378)
 
 ### 3. Processes
 
-* Game Start Process: In the first 30 seconds, players are introduced to the game with a dynamic starting line scene. An engaging and visually appealing countdown begins, leading to a big "Go!" sign signaling the start of the race. This immediate action is designed to capture the player's interest and encourage them to keep playing.
-*	Core Gameplay Process: Players repeatedly race through the course, collecting coins, prize boxes, and parts of the map. They use a combination of keyboard/mouse or touch controls to navigate. Each action in the race directly affects their progress and strategy in the game.
-*	Game Ending Process: To win or finish the game, players need to accumulate the most wealth or territory. This involves strategic racing, territory building, and resource management. The game concludes after a set number of rounds, with a clear display of the winner based on wealth and territory owned.
+* Game Start Process: In the first 30 seconds, players are introduced to the game with a dynamic starting line scene. An engaging and visually appealing countdown begins, leading to a big "Go!" sign signaling the start of the race.
+*	Core Gameplay Process: Players repeatedly race through the course, collecting coins, prize boxes, and parts of the map while buying other parts of the map with coins. They use a combination of keyboard/mouse or touch controls to navigate. Each action in the race directly affects their progress and strategy in the game.
+*	Game Ending Process: To win or finish the game, players need to accumulate the most territory. This involves strategic racing, territory building, and resource management. The game concludes after a set number of rounds, with a clear display of the winner based on territory owned any money that you didnt use goes to waste.
 * Learning the Processes: Players learn about these processes through an interactive tutorial at the beginning, supplemented by tooltips and in-game guidance.
 * ![image](https://github.com/our-game-maya-and-michael/Dash-For-Riches/assets/85742675/25c190c1-4cd5-4778-9468-13bfe2738b18)
 
 ### 4. Rules
 
-* Player Action Limitations: Players are restricted by the territories they own and the resources available to them. Their actions in the race are also confined by the course layout and the obstacles they encounter.
-* Outcome Determination Rules: The outcomes of actions in the game are governed by the player's strategic choices, the assets they acquire, and how they navigate the course.
+* Player Action Limitations: Players are restricted by the territories they own and the resources available to them, if you dont have coin you cant buy land and if you dont have land you will always be at a disadvantage of getting stuck in traps of players or not getting boosters. Their actions in the race are also confined by the course layout and the obstacles they encounter, also after a race you only got one minute to buy territories and boosters this is a fast paced game !
+* Outcome Determination Rules: The outcomes of actions in the game are governed by the player's strategic choices, the boosters they acquire, and how they navigate the course.
 * Learning the Rules: Players learn the rules through an initial tutorial, in-game prompts, and a help section accessible at any time.
 * ![image](https://github.com/our-game-maya-and-michael/Dash-For-Riches/assets/85742675/d90c9b5b-ed32-482e-bbc9-06fe88e7b56e)
 
 ### 5. Resources
 
-* Game Resources: The primary resources are coins, territories, and prize boxes.
-* Resource Utility: These resources help players build their strength, create strategic advantages, and progress in the game.
-* Acquiring Resources: Players gain resources by racing skillfully, navigating the course, and making strategic decisions.
-* Resource Scarcity Design: The game ensures resource scarcity through limited availability and strategic placement, requiring skill and strategy to acquire.
+* Game Resources: The primary resources are coins, territories and boosters.
+* Resource Utility: These resources help players build their strength, create strategic advantages, progress in the game and buy more land.
+* Acquiring Resources: Players gain resources by winning the race and with luck finding a reward chest.
+* Resource Scarcity Design: The game ensures resource scarcity through only getting coins if you win the race or catch a reward chest.
 * Resource Information for Players: Players are informed about their resources through an on-screen dashboard that shows real-time updates.
 * ![image](https://github.com/our-game-maya-and-michael/Dash-For-Riches/assets/85742675/c3ab2ab5-b2ef-4e74-8096-5906cf4efa5b)
 
@@ -64,8 +64,8 @@ Platform: PC
 ### 7. Boundaries
 
 * World Design: The game world is designed as a closed, linear course with clearly defined start and end points.
-* Boundary Presentation: Boundaries are made apparent to players through visual cues and course design.
-* Map Design Principles: The map adheres to principles of clarity, navigability, and interest, guiding players through meaningful and engaging racing environments.
+* Boundary Presentation: Boundaries are made apparent to players through visual cues like walls, borders and street signs etc...
+* Map Design Principles: Every path you take in the game changes how you will progress and how fast you progress, you can choose only one path, its easy to know where you are on the map because there is only one diraction to go to, you need to pay attiontion to where you are going because it determines the rest of the race for you and you dont need a guide on where to go because the player runs in one diraction.
 ![image](https://github.com/our-game-maya-and-michael/Dash-For-Riches/assets/85742675/94991624-cfe1-40a5-a46b-028a1a45b099)
 
 ### 8. Outcomes
