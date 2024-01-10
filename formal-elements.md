@@ -1,5 +1,3 @@
-<div dir='rtl' lang='he'>
-
 # Dash For Riches
 
 **Speed, Strategy, and Riches: Race to Own It All!**
