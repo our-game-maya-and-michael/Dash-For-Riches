@@ -2,7 +2,8 @@
 
 **Speed, Strategy, and Riches: Race to Own It All!**
 
-In "Dash for Riches," 2 to 4 players line up at the starting line for a fast-paced, competitive race. As they dash through the course, they can acquire parts of the map, collect money, and earn prize boxes. Players strategically build on their acquired territories, creating advantages for themselves or obstacles for others. The game intensifies with each round as players make split-second decisions, aiming to own the most territory or accumulate the most wealth to win.
+In "Dash for Riches," 2 to 4 players line up at the starting line for a fast-paced, competitive race. As they dash through the course, they can acquire parts of the map, collect money, and earn prize boxes.
+Players strategically build on their acquired territories, creating advantages for themselves or obstacles for others. The game intensifies with each round as players make split-second decisions, aiming to own the most territory or accumulate the most wealth to win.
 
 Platform: PC [Try our first level](https://mayamichael.itch.io/dash4riches)
 
