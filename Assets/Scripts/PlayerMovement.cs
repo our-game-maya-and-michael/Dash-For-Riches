@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour, IShopCustomer
 {
     public float speed = 8f;
     public float jumpingPower = 16f;
@@ -122,5 +122,10 @@ public class PlayerMovement : MonoBehaviour
             isAffected = true;
             effectTimer = duration;
         }
+    }
+
+    public void BoughtItem(Item.ItemType itemType)
+    {
+        Debug.Log("Bought item: " + itemType);
     }
 }
