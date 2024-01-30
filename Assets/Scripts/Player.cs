@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
-public class PlayerMovement : MonoBehaviour, IShopCustomer
+public class Player : MonoBehaviour, IShopCustomer
 {
     public float speed = 8f;
     public float jumpingPower = 16f;
@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour, IShopCustomer
     private bool isAffected = false;
     private float effectTimer = 0f;
     private float originalSpeed;
-    private float moveInput; // Changed to float for single axis movement
+    private float moveInput;
     private int money = 0; // Player's money
     public Text moneyText; // Reference to the UI Text component
 
@@ -127,5 +127,19 @@ public class PlayerMovement : MonoBehaviour, IShopCustomer
     public void BoughtItem(Item.ItemType itemType)
     {
         Debug.Log("Bought item: " + itemType);
+    }
+
+    public bool TrySpendGoldAmount(int spendGoldAmount)
+    {
+        if(money >= spendGoldAmount)
+        {
+            money -= spendGoldAmount;
+            UpdateMoneyUI();
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }

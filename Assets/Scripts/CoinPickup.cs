@@ -8,7 +8,7 @@ public class CoinPickup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        PlayerMovement player = collision.GetComponent<PlayerMovement>();
+        Player player = collision.GetComponent<Player>();
 
         if (player != null)
         {

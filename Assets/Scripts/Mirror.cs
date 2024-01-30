@@ -11,7 +11,7 @@ public class Mirror : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player")) // Make sure to tag your player object with "Player"
         {
-            PlayerMovement playerMovement = collision.gameObject.GetComponent<PlayerMovement>();
+            Player playerMovement = collision.gameObject.GetComponent<Player>();
             if (playerMovement != null)
             {
                 playerMovement.ApplySlow(slowDownFactor, slowDownDuration);

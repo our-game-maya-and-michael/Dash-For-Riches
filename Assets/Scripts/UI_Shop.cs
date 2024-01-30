@@ -15,7 +15,6 @@ public class UI_Shop : MonoBehaviour
     {
         container = transform.Find("container");
         shopItemTemplate = container.Find("shopItemTemplate");
-        shopItemTemplate.gameObject.SetActive(false);
     }
 
     private void Start()
@@ -23,7 +22,7 @@ public class UI_Shop : MonoBehaviour
         CreateItemButton(Item.ItemType.Mirror,"Mirror", Item.GetCost(Item.ItemType.Mirror), 0);
         CreateItemButton(Item.ItemType.SpeedBoost,"Speed Boost", Item.GetCost(Item.ItemType.SpeedBoost), 2);
 
-        //Hide();
+        Hide();
     }
 
     private void CreateItemButton(Item.ItemType itemType,string itemName, int itemCost, int positionIndex)
@@ -46,7 +45,9 @@ public class UI_Shop : MonoBehaviour
 
     private void TryBuyItem(Item.ItemType itemType)
     {
-        shopCustomer.BoughtItem(itemType);
+        if (shopCustomer.TrySpendGoldAmount(Item.GetCost(itemType))){ // Can afford the item
+            shopCustomer.BoughtItem(itemType);
+        }
     }
 
     public void Show(IShopCustomer shopCustomer)

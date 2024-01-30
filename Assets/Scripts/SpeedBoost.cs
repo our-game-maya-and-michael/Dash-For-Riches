@@ -11,7 +11,7 @@ public class SpeedBoost : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("Player")) // Make sure to tag your player object with "Player"
         {
-            PlayerMovement playerMovement = collider.GetComponent<PlayerMovement>();
+            Player playerMovement = collider.GetComponent<Player>();
             if (playerMovement != null)
             {
                 playerMovement.ApplySpeedBoost(speedBoostFactor, speedBoostDuration);
