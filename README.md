@@ -11,7 +11,18 @@ Platform: PC [Try our first level](https://mayamichael.itch.io/dash4riches)
 
 ![image](https://github.com/our-game-maya-and-michael/Dash-For-Riches/assets/85742675/8f19c486-465f-43fc-9d91-35a9419ed361)
 
-## Credits
+## Script with explanation
+* [Codemonkey Button UI](https://github.com/our-game-maya-and-michael/Dash-For-Riches/blob/main/Assets/Scripts/Button_UI.cs)
+* [Coin pick up](https://github.com/our-game-maya-and-michael/Dash-For-Riches/blob/main/Assets/Scripts/CoinPickup.cs)
+* [Shop customer interface](https://github.com/our-game-maya-and-michael/Dash-For-Riches/blob/main/Assets/Scripts/IShopCustomer.cs)
+* [Item class for the shop](https://github.com/our-game-maya-and-michael/Dash-For-Riches/blob/main/Assets/Scripts/Item.cs)
+* [The glass obstecale](https://github.com/our-game-maya-and-michael/Dash-For-Riches/blob/main/Assets/Scripts/Mirror.cs)
+* [The player class](https://github.com/our-game-maya-and-michael/Dash-For-Riches/blob/main/Assets/Scripts/Player.cs)
+* [Shop trigger area](https://github.com/our-game-maya-and-michael/Dash-For-Riches/blob/main/Assets/Scripts/ShopTriggerCollider.cs)
+* [Speed boost](https://github.com/our-game-maya-and-michael/Dash-For-Riches/blob/main/Assets/Scripts/ShopTriggerCollider.cs)
+* [UI shop](https://github.com/our-game-maya-and-michael/Dash-For-Riches/blob/main/Assets/Scripts/UI_Shop.cs)
+
+### Credits
 * [How to create a map](https://www.youtube.com/watch?v=g83_gwEO0kM&ab_channel=MoreBBlakeyyy)
 * [Background](https://stock.adobe.com/il/images/cityscape-cartoon-urban-skyline-city-panorama-landscape-street-flat-and-office-buildings-wide-horizontal-panorama-drawing-silouette-town-view-sky-skyscrapers-sunrise-morning-or-evening-sun/530854713)
 * [Shop](https://www.pngegg.com/en/png-zqvcb/download)
