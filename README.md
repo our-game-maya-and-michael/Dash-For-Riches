@@ -11,7 +11,7 @@ Platform: PC [Try our first level](https://mayamichael.itch.io/dash4riches)
 
 ![image](https://github.com/our-game-maya-and-michael/Dash-For-Riches/assets/85742675/8f19c486-465f-43fc-9d91-35a9419ed361)
 
-## Script with explanation
+## Script
 * [Codemonkey Button UI](https://github.com/our-game-maya-and-michael/Dash-For-Riches/blob/main/Assets/Scripts/Button_UI.cs)
 * [Coin pick up](https://github.com/our-game-maya-and-michael/Dash-For-Riches/blob/main/Assets/Scripts/CoinPickup.cs)
 * [Shop customer interface](https://github.com/our-game-maya-and-michael/Dash-For-Riches/blob/main/Assets/Scripts/IShopCustomer.cs)
