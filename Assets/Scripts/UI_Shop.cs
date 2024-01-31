@@ -19,13 +19,13 @@ public class UI_Shop : MonoBehaviour
 
     private void Start()
     {
-        CreateItemButton(Item.ItemType.Mirror,"Mirror", Item.GetCost(Item.ItemType.Mirror), 0);
-        CreateItemButton(Item.ItemType.SpeedBoost,"Speed Boost", Item.GetCost(Item.ItemType.SpeedBoost), 2);
+        CreateItemButton(Item.ItemType.Mirror, "Mirror", Item.GetCost(Item.ItemType.Mirror), 0);
+        CreateItemButton(Item.ItemType.SpeedBoost, "Speed Boost", Item.GetCost(Item.ItemType.SpeedBoost), 2);
 
         Hide();
     }
 
-    private void CreateItemButton(Item.ItemType itemType,string itemName, int itemCost, int positionIndex)
+    private void CreateItemButton(Item.ItemType itemType, string itemName, int itemCost, int positionIndex)
     {
         Transform shopItemTransform = Instantiate(shopItemTemplate, container);
         RectTransform shopItemRectTransform = shopItemTransform.GetComponent<RectTransform>();
@@ -45,7 +45,8 @@ public class UI_Shop : MonoBehaviour
 
     private void TryBuyItem(Item.ItemType itemType)
     {
-        if (shopCustomer.TrySpendGoldAmount(Item.GetCost(itemType))){ // Can afford the item
+        if (shopCustomer.TrySpendGoldAmount(Item.GetCost(itemType)))
+        { // Can afford the item
             shopCustomer.BoughtItem(itemType);
         }
     }

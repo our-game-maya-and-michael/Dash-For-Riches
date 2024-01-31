@@ -41,7 +41,6 @@ public class Player : MonoBehaviour, IShopCustomer
         originalSpeed = speed; // Store the original speed of the player
         UpdateMoneyUI(); // Initialize UI
     }
-
     void Update()
     {
         moveInput = movementAction.ReadValue<float>(); // Read as float for single axis
@@ -55,7 +54,6 @@ public class Player : MonoBehaviour, IShopCustomer
                 speed = originalSpeed;
             }
         }
-
         Flip();
     }
 
@@ -73,7 +71,6 @@ public class Player : MonoBehaviour, IShopCustomer
             moneyText.text = $"Money: {money}";
         }
     }
-
     private void FixedUpdate()
     {
         // Apply movement along the horizontal axis
@@ -131,7 +128,7 @@ public class Player : MonoBehaviour, IShopCustomer
 
     public bool TrySpendGoldAmount(int spendGoldAmount)
     {
-        if(money >= spendGoldAmount)
+        if (money >= spendGoldAmount)
         {
             money -= spendGoldAmount;
             UpdateMoneyUI();

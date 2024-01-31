@@ -12,7 +12,7 @@ public class Item
 
     public static int GetCost(ItemType itemType)
     {
-        switch(itemType)
+        switch (itemType)
         {
             default:
             case ItemType.Mirror: return 1;
